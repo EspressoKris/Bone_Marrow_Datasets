@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# CONFIGURE THIS PATH FOR YOUR ENVIRONMENT
+SCRIPTS_PATH="SCRIPTS_OUTPUT_PATH"
+
+mkdir -p "$SCRIPTS_PATH/Reports"
+cd "$SCRIPTS_PATH"
+
+sbatch CellRanger_ARC_BMMNC_HD01_SITE1_Unfractionated_Multiome.sh
+sbatch CellRanger_ARC_BMMNC_HD01_SITE2_Unfractionated_Multiome.sh
+sbatch CellRanger_ARC_BMMNC_HD01_SITE4_Unfractionated_Multiome.sh
+sbatch CellRanger_ARC_BMMNC_HD02_SITE1_Unfractionated_Multiome.sh
+sbatch CellRanger_ARC_BMMNC_HD03_SITE1_Unfractionated_Multiome.sh
+sbatch CellRanger_ARC_BMMNC_HD03_SITE3_Unfractionated_Multiome.sh
+sbatch CellRanger_ARC_BMMNC_HD04_SITE2_Unfractionated_Multiome.sh
+sbatch CellRanger_ARC_BMMNC_HD05_SITE2_Unfractionated_Multiome.sh
+sbatch CellRanger_ARC_BMMNC_HD06_SITE3_Unfractionated_Multiome.sh
+sbatch CellRanger_ARC_BMMNC_HD07_SITE3_Unfractionated_Multiome.sh
+sbatch CellRanger_ARC_BMMNC_HD08_SITE4_Unfractionated_Multiome.sh
+sbatch CellRanger_ARC_BMMNC_HD09_SITE4_Unfractionated_Multiome.sh
+sbatch CellRanger_ARC_BMMNC_HD10_SITE3_Unfractionated_Multiome.sh

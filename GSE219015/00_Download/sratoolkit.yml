@@ -1,0 +1,8 @@
+name: sratoolkit
+channels:
+  - defaults
+dependencies:
+  - sra-tools
+  - parallel-fastq-dump
+  - pip
+

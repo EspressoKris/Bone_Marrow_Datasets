@@ -1,0 +1,3 @@
+fastqs,sample,library_type
+/path/to/data/GSE194122_Healthy_BMMNCs_scMultiome/Data/Raw_Data/GEX/SRR17693277_GSM5828469/libraries_neurips_site1_donor2_0_1_HFMHTDRXY,bamtofastq,Gene Expression
+/path/to/data/GSE194122_Healthy_BMMNCs_scMultiome/Data/Raw_Data/ATAC/SRR17693264_GSM5828482/libraries_neurips_site1_donor2_MissingLibrary_1_HFNCFDRXY,bamtofastq,Chromatin Accessibility

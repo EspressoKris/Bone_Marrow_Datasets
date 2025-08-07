@@ -1,0 +1,50 @@
+# Data directories
+Data/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# SLURM output files
+*.out
+*.err
+Reports/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Large data files (should not be in git)
+*.bam
+*.fastq
+*.fastq.gz
+*.h5
+*.h5ad
+*.mtx
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# R
+.RData
+.Rhistory
+.Rproj.user/

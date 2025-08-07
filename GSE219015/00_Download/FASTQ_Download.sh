@@ -1,0 +1,42 @@
+
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Aged_HD01/CD34_Enriched_Multiome/ATAC
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Aged_HD01/CD34_Enriched_Multiome/RNA
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Aged_HD01/Unfractionated_BMMNC_Multiome/ATAC
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Aged_HD01/Unfractionated_BMMNC_Multiome/RNA
+
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Aged_HD02/CD34_Enriched_Multiome/ATAC
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Aged_HD02/CD34_Enriched_Multiome/RNA
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Aged_HD02/Unfractionated_BMMNC_Multiome/ATAC
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Aged_HD02/Unfractionated_BMMNC_Multiome/RNA
+
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Young_HD01/CD34_Enriched_Multiome/ATAC
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Young_HD01/CD34_Enriched_Multiome/RNA
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Young_HD01/Unfractionated_BMMNC_Multiome/ATAC
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Young_HD01/Unfractionated_BMMNC_Multiome/RNA
+
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Young_HD02/CD34_Enriched_Multiome/ATAC
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Young_HD02/CD34_Enriched_Multiome/RNA
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Young_HD02/Unfractionated_BMMNC_Multiome/ATAC
+mkdir -p /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data/BMMNC_Young_HD02/Unfractionated_BMMNC_Multiome/RNA
+
+cd /path/to/data/GSE219015_Healthy_BMMNCs_and_CD34_enriched_BMMNCs_scMultiome/Data/Raw_Data
+
+# sbatch SRR22447569_download.sh
+sbatch SRR22447570_download.sh
+sbatch SRR22447572_download.sh
+sbatch SRR22447573_download.sh
+
+sbatch SRR22464692_download.sh
+sbatch SRR22464693_download.sh
+sbatch SRR22464695_download.sh
+sbatch SRR22464696_download.sh
+
+sbatch SRR22473338_download.sh
+sbatch SRR22473339_download.sh
+sbatch SRR22473341_download.sh
+sbatch SRR22473342_download.sh
+
+sbatch SRR22507572_download.sh
+sbatch SRR22507573_download.sh
+sbatch SRR22507575_download.sh
+sbatch SRR22507576_download.sh

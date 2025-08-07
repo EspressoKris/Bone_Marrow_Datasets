@@ -1,0 +1,4 @@
+fastqs,sample,library_type
+/path/to/data/GSE194122_Healthy_BMMNCs_scMultiome/Data/Raw_Data/GEX/SRR17693267_GSM5828479/site4_donor8_0_1_AAAHCHWHV,bamtofastq,Gene Expression
+/path/to/data/GSE194122_Healthy_BMMNCs_scMultiome/Data/Raw_Data/GEX/SRR17693267_GSM5828479/site4_donor8_0_1_HNV5LBGXJ,bamtofastq,Gene Expression
+/path/to/data/GSE194122_Healthy_BMMNCs_scMultiome/Data/Raw_Data/ATAC/SRR17693254_GSM5828492/site4_donor8_MissingLibrary_1_H3YNFBGXK,bamtofastq,Chromatin Accessibility

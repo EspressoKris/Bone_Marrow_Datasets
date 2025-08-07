@@ -1,0 +1,3 @@
+fastqs,sample,library_type
+/path/to/data/GSE219015_Healthy_BMMCs_and_CD34_enriched_BMMCs_scMultiome/Data/Raw_Data/BMMNC_Aged_HD01/Unfractionated_BMMNC_Multiome/RNA,SRR22447573,Gene Expression
+/path/to/data/GSE219015_Healthy_BMMCs_and_CD34_enriched_BMMCs_scMultiome/Data/Raw_Data/BMMNC_Aged_HD01/Unfractionated_BMMNC_Multiome/ATAC,SRR22447572,Chromatin Accessibility
